@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// setting variable "name" as the string 'Dane'
+// setting up a conditional to test variable name and if it equals 'Mary"
+// The name variable doesnt match 
+//it console logs 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// setting variable secret and variable code. code is set to 123
+// setting up a conditional to see if the variable code is equal to 123 
+// its does equate to true so the loop sets secret variable to the string 'super' and multiplies codes value by 2
+// and sets its value to 246
+// setting up a conditional to see if code's vaule is greater than 250 (it isnt)
+//console logs super
 
 //CODE
 /*
@@ -70,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// assigns var isStudent to true, age to 34, and zup to 55407
+// sets up conditional to test if var isStudent is true AND zip is greater than 80000
+// sets up conditional to test if var isStudent is false OR age is less than 30
+// sets up conditional to test if var isStudent is true AND
+// if all previous conditions equate to false this will console log 'how about the weather
+// console logs Welcome to Prime!
 
 //CODE
 /*
@@ -130,11 +134,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - add colorTwo = 'purple
   colorOne = 'purple';
 }
 */
@@ -147,6 +153,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - || change to &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +167,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - change <= to >=
 if(minAge <= age) {
   console.log('no entry');
 } else {
